@@ -21,4 +21,4 @@ Tratamiento de datos en APIs En este enlace encontrarás la documentación de la
     - Ejemplo de salida: {“William”: 11, “ Floyd”: 2} Como output, te pediremos el código (puedes separarlo en archivos como quieras) y los resultados de salida de los puntos anteriores.
     - Recuerda que puedes utilizar el lenguaje que prefieras y cualquier mejora adicional será bien considerada
 ora adicional será bien considerada
-](https://github.com/esmartdie/evaluacionTecnicaQaDev/tree/main)
+
