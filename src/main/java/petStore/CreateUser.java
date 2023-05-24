@@ -8,9 +8,18 @@ public class CreateUser {
 
     private PetStoreConnection miConnection = new PetStoreConnection();
     private JSONObject objectJson;
+
+    /**
+     * Constructor de la clase CreateUser que recibe el objeto JSON de entrada.
+     */
     public CreateUser(JSONObject objectJson){
         this.objectJson=objectJson;
     }
+
+    /**
+     * Crea un nuevo usuario en la tienda de mascotas utilizando la conexión y el objeto JSON proporcionados.
+     * Devuelve una nueva instancia de CreateUser.
+     */
     public CreateUser createNewUser(){
 
         try {

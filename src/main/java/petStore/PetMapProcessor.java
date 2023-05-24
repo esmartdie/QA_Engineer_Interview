@@ -10,6 +10,11 @@ public class PetMapProcessor {
         this.petMap = petMap;
     }
 
+    /**
+     * Cuenta la cantidad de mascotas por nombre.
+     *
+     * @return Un mapa donde la clave es el nombre de la mascota y el valor es la cantidad de mascotas con ese nombre.
+     */
     public Map<String, Integer> countPetsByName() {
         Map<String, Integer> result = new HashMap<>();
         for (String petName : petMap.values()) {

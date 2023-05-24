@@ -7,6 +7,17 @@ public class UserInformation {
     private long id;
     private String username, firstName, lastName, email, password, phone;
 
+    /**
+     * Constructor de la clase UserInformation.
+     *
+     * @param id        El ID del usuario.
+     * @param username  El nombre de usuario.
+     * @param firstName El nombre del usuario.
+     * @param lastName  El apellido del usuario.
+     * @param email     El correo electrónico del usuario.
+     * @param password  La contraseña del usuario.
+     * @param phone     El número de teléfono del usuario.
+     */
     public UserInformation(long id, String username, String firstName, String lastName, String email, String password, String phone) {
         this.id = id;
         this.username = username;
@@ -43,7 +54,10 @@ public class UserInformation {
     public String getPhone() {
         return phone;
     }
-
+    /**
+     * Genera y devuelve un objeto JSONObject que contiene la información del usuario.
+     * @return El objeto JSONObject con la información del usuario.
+     */
     public JSONObject UserEntry(){
         JSONObject userEntry = new JSONObject();
         userEntry.put("id", id);

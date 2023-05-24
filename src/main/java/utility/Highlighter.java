@@ -5,6 +5,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class Highlighter {
+
+    /**
+     * Resalta un elemento en la página web cambiando su estilo. Utiliza JavaScript para cambiar el atributo "style"
+     * del elemento y le aplica un fondo rojo y un borde negro.
+     * Luego, espera 500 milisegundos y restaura el estilo original del elemento.
+     *
+     * @param driver  El controlador del navegador web.
+     * @param element El elemento a resaltar.
+     */
     public static void highlightElement(WebDriver driver, WebElement element)
     {
         JavascriptExecutor javascript=(JavascriptExecutor)driver;
